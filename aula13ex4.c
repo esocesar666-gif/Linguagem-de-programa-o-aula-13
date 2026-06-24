@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-void comissao(float *preco1, float *preco2) {
-    *preco1 = *preco1 * 1.10;
-    *preco2 = *preco2 * 1.10;
+void comissao(float *preco1ptr, float *preco2ptr) {
+    *preco1ptr = *preco1ptr * 1.10;
+    *preco2ptr = *preco2ptr * 1.10;
 }
 
 int main() {
